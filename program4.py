@@ -54,9 +54,9 @@ def update_board_display():
         for j in range(cols):
             color = 'white'
             if board[i][j] == 1:
-                color = 'red'
+                color = 'orange'
             elif board[i][j] == 2:
-                color = 'blue'
+                color = 'green'
             canvas.itemconfig(circles[i][j], fill=color)
 
 # Handle column button clicks
