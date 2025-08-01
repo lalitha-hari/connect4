@@ -54,7 +54,7 @@ def update_board_display():
         for j in range(cols):
             color = 'white'
             if board[i][j] == 1:
-                color = 'orange'
+                color = 'black'
             elif board[i][j] == 2:
                 color = 'green'
             canvas.itemconfig(circles[i][j], fill=color)
